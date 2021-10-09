@@ -104,6 +104,7 @@ seguir, um exemplo de tentativa de declaração de uma variável iniciando com
 dígito. 
 
 ![VariavelIncorreta](../img/variavel-incorreta.PNG)
+
 Observe que o NetBeans IDE destacou o nome incorreto de variável. 
 
 Depois do primeiro caractere, o nome da variável pode incluir letras, dígitos (0, 1, 2, 3, 4, 5, 6, 7, 8 ou 9) ou sublinhados, em qualquer combinação. O
