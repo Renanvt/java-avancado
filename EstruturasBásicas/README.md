@@ -1,10 +1,15 @@
 # Tópicos
 
 [O que são tipos primitivos](#o-que-são-tipos-primitivos)
+
 [Declaração e inicialização de variáveis](#declaração-e-inicialização-de-variáveis)
+
 [Escopo de variável](#escopo-de-variável)
+
 [Estrutura de controle]
+
 [Estrutura de repetição]
+
 [Estrutura de seleção]
 
 # INTRODUÇÃO
