@@ -1,8 +1,12 @@
 # Tópicos
 [Apresentação](#Apresentação)
+
 [Introdução](#INTRODUÇÃO)
+
 [Histórico Java](#HISTÓRICO-E-EVOLUÇÃO-DA-LINGUAGEM-JAVA)
+
 [A Tecnologia Java](#A-TECNOLOGIA-JAVA)
+
 [Compição, Interpretação de Programas Java](#O-PROCESSO-DE-COMPILAÇÃO-E-INTERPRETAÇÃO-DE-PROGRAMAS-JAVA)
 
 # Apresentação
