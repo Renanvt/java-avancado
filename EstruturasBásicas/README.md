@@ -230,3 +230,185 @@ A tabela abaixo apresenta uma comparação resumida entre os escopos de variáve
 ![EscopoDeVariaveis](../img/comparando-escopos.png)
 
 > Fonte: Oliveira, J. Estruturas Básicas da Linguagem Java. In: CESAR, T. **Programação Avançada**. 1.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2018. p. 39-43
+
+
+# ESTRUTURAS DE CONTROLE
+
+Leia um valor X;
+Calcule Y como função de X: Y = X * 2;
+Imprima o resultado
+
+Estruturas de controle são instruções que permitem que blocos específicos de
+código sejam escolhidos para serem executados, redirecionando determinadas
+partes do fluxo do programa. O Java contém três tipos de estruturas de controle:
+instruções de sequência; instrução de seleção (if, if else, switch) e instruções de
+repetição (while, do-while, for). 
+
+# INSTRUÇÕES DE SEQUÊNCIA
+
+![EstruturaSequencial](../img/estrutura-sequencial.PNG)
+
+# ESTRUTURAS DE SELEÇÃO
+
+## INSTRUÇÕES IF E ELSE
+
+```java
+if (expressão){
+ diretiva
+}
+```
+![IfElse](../img/estrutura-if.PNG)
+
+![ProgramaComEstruturaIF](../img/programa-com-estrutura-if)
+
+```java
+if (expressão){
+    Diretiva 1
+} else {
+    Diretiva 2
+}
+```
+
+![EstuturaIfElse](../img/estrutura-if-else.PNG)
+
+## ARGUMENTOS VÁLIDOS PARA INSTRUÇÕES IF 
+
+Podemos fazer uso de
+operadores lógicos && (and), || (or) e ! (not)
+
+![ArgumentosValidos](../img/prog-if-else-operadores-logicos.PNG)
+
+# INSTRUÇÕES SWITCH
+
+```java
+switch (expressão ordinal) {
+    case valor ordinal 1:
+        diretiva 1;
+        break;
+    case valor ordinal 2:
+        diretiva 2;
+    break;
+...
+    default:
+        diretiva N;
+}
+```
+
+![InstruçãoSwitch](../img/instrucao-switch.PNG)
+
+![IfAninhado](../img/if-aninhado.PNG)
+
+![Switch](../img/instrucao-switch2.PNG)
+
+Nesse programa vamos ler do teclado um caractere numérico utilizando a classe
+Scanner do Java. A classe Scanner é uma das diversas classes do Java que permite
+a leitura de dados vindos do teclado. A utilização do método nextint() da classe
+Scanner deixa no buffer a instrução da tecla pressionada. 
+
+![Switch](../img/instrucao-switch3.PNG)
+
+É importante observar que nos comandos case da
+instrução switch só são aceitas variáveis do tipo int, char, byte, short.
+
+# ESTRUTURAS DE REPETIÇÃO
+
+## USANDO LOOP FOR
+
+```java
+for ([início]; [condição]; [inc/dec]){
+    diretiva;
+}
+```
+
+![For](../img/instrucao-for.PNG)
+
+![For2](../img/instrucao-for2.PNG)
+
+para i de 1 até 10 faça
+    Escreva i
+fim_para
+
+Em Java, pode-se usar para fazer repetição condicional:
+
+![For3](../img/declaração-for.PNG)
+
+Podemos efetuar múltiplas diretivas na inicialização e no incremento, se necessário, separando com vírgulas:
+
+![For3](../img/declaração-for-2.PNG)
+
+## USANDO LOOP WHILE
+
+```java
+while (condição)
+{
+    Diretiva;
+}
+```
+
+![While](../img/loop-while.PNG)
+
+![ProgramaWhile](../img/programa-while.PNG)
+
+## USANDO LOOP DO-WHILE
+
+
+```java
+do {
+    diretiva;
+} while (condição);
+```
+
+![Do-While](../img/loop-do-while.PNG)
+
+![Programa-Do-While](../img/programa-do-while.PNG)
+
+# DESVIOS INCONDICIONAIS
+
+## Break
+
+![Break](../img/comando-break.PNG)
+Note que mesmo que a condição for instruísse para que o programa imprimisse números até o 500, a condição if se tornou válida quando o cont chegou
+ao número 6, e sendo verdadeiro, executou seu bloco de instrução interrompendo o programa
+
+![Continue](../img/comando-continue.PNG)
+
+Note que o programa não imprimiu os números 5, 6 e 7 devido à execução do
+comando continue.
+
+## BREAK E CONTINUE ROTULADOS
+
+Tanto a instrução break quanto continue podem ser não rotuladas ou rotuladas.
+As rotuladas serão necessárias somente nas situações em que você tiver um loop
+aninhado e precisar indicar qual quer encerrar ou a partir de qual deseja continuar a próxima interação. Uma instrução break sairá do loop rotulado e não do
+loop atual se a palavra-chave break for combinada com um rótulo. Um exemplo
+do formato de um rótulo se encontra no código a seguir:
+
+![Break-rotulado](../img/break-rotulado.PNG)
+
+Nesse exemplo, a sentença “Dentro do Loop” será exibida uma vez. Em seguida,
+a instrução break rotulada será executada e o fluxo sairá do loop rotulado com o
+rótulo que declaramos “externo”. Então, a próxima linha de código exibirá “Fora
+do Programa”.
+
+Vejamos o que acontecerá se a instrução continue for usada em
+vez de break:
+
+![continue-rotulado](../img/continue-rotulado.PNG)
+
+![Continue-rotulado](../img/continue-rotulado-resultado.PNG)
+
+Nesse exemplo, a sentença “Dentro do Loop” foi executada 2 vezes atendendo
+a condição de y < 3. Depois de concluída essa instrução, o programa imprimiu
+13 vezes a sentença “Fora do Loop”. Para concluir, quando a condição do loop
+externo for avaliada como falsa, o loop i será encerrado e a sentença “Fora do
+Programa” será exibida
+
+## BREAK E CONTINUE NÃO ROTULADOS
+
+As instruções break e continue não rotuladas saíram da estrutura do loop atual e
+prosseguirão na linha de código posterior ao bloco do loop. O exemplo abaixo
+demonstra uma instrução break.
+
+![Break-nao-rotulado](../img/break-nao-rotulado.PNG)
+
+![Continue-nao-rotulado](../img/continue-nao-rotulado.PNG)
