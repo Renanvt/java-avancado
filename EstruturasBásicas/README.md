@@ -259,7 +259,7 @@ if (expressão){
 ```
 ![IfElse](../img/estrutura-if.PNG)
 
-![ProgramaComEstruturaIF](../img/programa-com-estrutura-if)
+![ProgramaComEstruturaIF](../img/programa-com-estrutura-if.PNG)
 
 ```java
 if (expressão){
@@ -330,11 +330,11 @@ fim_para
 
 Em Java, pode-se usar para fazer repetição condicional:
 
-![For3](../img/declaração-for.PNG)
+![For3](../img/declaracao-for.PNG)
 
 Podemos efetuar múltiplas diretivas na inicialização e no incremento, se necessário, separando com vírgulas:
 
-![For3](../img/declaração-for-2.PNG)
+![For4](../img/declaracao-for-2.PNG)
 
 ## USANDO LOOP WHILE
 
