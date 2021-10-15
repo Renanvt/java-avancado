@@ -8,7 +8,7 @@
 
 [Estrutura de controle](#ESTRUTURAS-DE-CONTROLE)
 
-[Estrutura de repetição](#estruturas-de-repeticao)
+[Estrutura de repetição](#estruturas-de-repetição)
 
 [Estrutura de seleção](#DESVIOS-INCONDICIONAIS)
 
