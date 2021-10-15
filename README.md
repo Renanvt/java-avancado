@@ -7,7 +7,7 @@
 
 [A Tecnologia Java](#A-TECNOLOGIA-JAVA)
 
-[Compição, Interpretação de Programas Java](#O-PROCESSO-DE-COMPILAÇÃO-E-INTERPRETAÇÃO-DE-PROGRAMAS-JAVA)
+[Compilação, Interpretação de Programas Java](#O-PROCESSO-DE-COMPILAÇÃO-E-INTERPRETAÇÃO-DE-PROGRAMAS-JAVA)
 
 # Apresentação
 
