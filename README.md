@@ -75,6 +75,8 @@ mais significativa da linguagem Java, já que a tecnologia foi dividida em três
 principais plataformas: **J2SE** (Java 2 Standard Edition), **J2EE** (Java 2 Enterprise
 Edition) e **J2ME** (Java 2 Micro Edition).
 
+![JVSE](img/j2se.PNG)
+
 Ao **J2SE** foram adicionadas as seguintes bibliotecas: Swing para interface
 gráfica com o cliente, coleções (List, Set e Map), e a possibilidade de criação de
 pontos flutuantes de acordo com o padrão IEEE 754.
