@@ -54,6 +54,8 @@ quando os princípios básicos de tal paradigma são seguidos
 
 > Fonte: Oliveira, J. Introdução. In: CESAR, T. **Programação Avançada**. 1.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2018. p. 15
 
+![TecnologiaJava](img/tecnologia-java.PNG)
+
 # HISTÓRICO E EVOLUÇÃO DA LINGUAGEM JAVA
 
 A linguagem Java foi criada por James
@@ -177,6 +179,9 @@ executadas tão rápido como os programas nativos. Desde a versão 1.2 da JRE,
 a implementação de Java incluiu um compilador just-in-time, em vez de um
 interpretador.
 
+![TecnologiaJava3](img/tecnologia-java3.PNG)
+
+
 Embora os programas Java sejam multiplataforma ou independente de plataforma, o código da máquina virtual em que estes programas rodam não é. Cada
 plataforma operacional possui a sua própria JVM.
 
@@ -211,6 +216,8 @@ algumas aplicações, como o Lotus Notes.
 # O PROCESSO DE COMPILAÇÃO E INTERPRETAÇÃO DE PROGRAMAS JAVA
 
 O JDK inclui muitos utilitários para compilação, depuração e execução de aplicações Java
+
+![TecnologiaJava2](img/tecnologia-java2.PNG)
 
 ## O COMPILADOR JAVA
 
