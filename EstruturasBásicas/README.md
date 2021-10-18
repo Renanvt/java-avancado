@@ -6,11 +6,11 @@
 
 [Escopo de variável](#escopo-de-variável)
 
-[Estrutura de controle]
+[Estrutura de controle](#ESTRUTURAS-DE-CONTROLE)
 
-[Estrutura de repetição]
+[Estrutura de repetição](#estruturas-de-repetição)
 
-[Estrutura de seleção]
+[Estrutura de seleção](#DESVIOS-INCONDICIONAIS)
 
 # INTRODUÇÃO
 
