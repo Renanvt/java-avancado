@@ -135,7 +135,7 @@ Anotações de escopo definem o escopo em que o managed bean será colocado. Se
 o escopo não for especificado, o managed bean utilizará o padrão que é o request
 scope. Cada escopo é brevemente discutido abaixo.
 
-[AnotacoesDeEscopo](../img/AnotacoesDeEscopo.PNG)
+![AnotacoesDeEscopo](../img/AnotacoesDeEscopo.PNG)
 
 ### EXEMPLO DE APLICAÇÃO
 
@@ -151,7 +151,7 @@ e selecione o projeto Aplicação Web
 Em pacotes de código, crie um pacote chamado escola e dentro crie uma classe
 chamada Nota, e implemente o código abaixo:
 
-![Nota](escola/nota.jsp)
+[Nota](escola/nota.jsp)
 
 Observe no código da classe Nota que fazemos uso da notação @ManagedBean
 do pacote javax.faces.bean.ManagedBean e nomeamos o nosso bean como notaBean. Como nosso bean foi nomeado, teremos de utilizar o nome do bean no
@@ -395,7 +395,7 @@ and open the template in the editor.
 
 A saída do projeto após a execução foi a seguinte: 
 
-![SaídaTemplate2](img/saída-template2.PNG)
+![SaídaTemplate2](../img/saída-template2.PNG)
 
 # VALIDAÇÃO COM JSF
 
